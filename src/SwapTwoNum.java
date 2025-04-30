@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
-public class swapTwoNum {
+public class SwapTwoNum {
 
-    int swapTwoNum(int a, int b){
+    void swapTwoNum(int a, int b){
 
-        a=a+b;
-        b=a-b;
-        a=a-b;
+        a = a + b;
+        b = a - b;
+        a = a - b;
 
         System.out.println("Numbers after swapping is "+a+" and "+b);
-        return 0;
     }
 
     public static void main(String[] args) {
@@ -21,7 +20,9 @@ public class swapTwoNum {
 
         System.out.println("Numbers before swapping is "+num1+" and "+num2);
 
-        swapTwoNum swap = new swapTwoNum();
+        SwapTwoNum swap = new SwapTwoNum();
         swap.swapTwoNum(num1,num2);
+
+        sc.close();
     }
 }
