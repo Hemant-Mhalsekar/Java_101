@@ -83,7 +83,7 @@ public class EasyQuestions {
         for (i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
                 position = i;
-                break;
+                 ;
             }
         }
 
