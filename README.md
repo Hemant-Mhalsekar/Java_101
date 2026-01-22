@@ -27,7 +27,8 @@ The code is written in a beginner-friendly and easy-to-understand manner.
 
 ## 🌱 Current Status
 - Actively learning Java  
-- Regularly adding new problems and solutions  
+- Regularly adding new problems and solutions
+- Working on java projects
 
 ## 🤝 Contributions
 This is a personal learning repository.  
